@@ -31,7 +31,8 @@ const Photo = styled.img`
 const Header = () => {
   return (
     <Wrapper>
-      <Photo src={process.env.PUBLIC_URL + 'my-photo.jpg'} alt="My Photo" />
+      {/* <Photo src={process.env.PUBLIC_URL + 'my-photo.jpg'} alt="My Photo" /> */}
+      <img  src="/test.jpg" alt="Photo" />
       <Title>My CV</Title>
       
     </Wrapper>
